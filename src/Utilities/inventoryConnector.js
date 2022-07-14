@@ -17,6 +17,7 @@ export function inventoryConnector(store, componentsMapper, Wrapper, isRbacEnabl
                 inventoryRef={ ref }
                 store={ store }
                 cmp={ InventoryTable }
+                activeFiltersConfig={{ showDeleteButton: true }}
             />
         ),
         AppInfo: React.forwardRef(
